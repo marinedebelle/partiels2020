@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>La lumière de l'âme</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Le css s'intègre dans la balise head -->
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <ul>
+            <li><a href="./index.html">Accueil</a></li>
+            <li><a href="./notedintention.html">Note d'intention</a></li>
+            <li><a class="selectionMenu" href="#">Hypothèses</a></li>
+            <li><a target="_blank" href="https://marinedebelle.github.io/Lumiere-de-l-ame/index.html">Experience</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="background backgroundPage">
+            
+                <div class="circle circleExitation"></div>
+                <div class="circle circleJoy"></div>
+                <div class="circle circleFun"></div>
+
+            <section class="fiche">
+                <h1>Hypothèses</h1>
+                <h3>Hypothèse 1 - web</h3>
+                <p>Le but ici est de réaliser une interface web où l'utilisateur pourra, grâce à son téléphone, jauger ses émotions de 0 à 10 en bougeant des curseur. Grâce à un serveur, ces données seront transférées à l'installation Arduino qui allumera et changera l'intensité lumineuse de chaque LED selon l'intensité de l'émotion ressentie.</p>
+                <span> Outils </span>
+                <ul>
+                    <li>Interface web (UI / UX) sur mobile</li>
+                    <li>Serveur (node.js)</li>
+                    <li>Arduino (C + matériel)</li>
+                    <li>Bandeau LED RGB</li>
+                </ul>
+                <span> Besoins techniques </span>
+                <ul>
+                    <li>- Hébergement (OVH)</li>
+                    <li>HTML / Css / Js / Node.js</li>
+                    <li>RGB LED strip</li>
+                    <li>Arduino Uno</li>
+                    <li>10k Ohm Resistors</li>
+                    <li>Logic Level N-channel MOSFETs</li>
+                    <li>Breadboard</li>
+                    <li>Hookup wires</li>
+                    <li>12v Power Supply</li>
+                </ul>
+                
+
+
+                <h3>Hypothèse 2 - boutons</h3>
+                <p>Le but ici est de réaliser une installation Arduino où l'utilisateur pourra, grâce à des boutons, jauger ses émotions de 0 à 10 en appuyant une ou plusieurs fois sur les boutons correspondant à celles-ci (exemple : le bouton rouge représente la colère et la personne appuyant 8 fois sur ce bouton ressentira très fortement cette émotion). Grâce au code et à l'installation Arduino, la lumière LED s'allumera si la personne ressent l'émotion (si elle a appuyé sur le bouton) et son intensité changera selon le nombre de pressions faites sur le bouton.</p>
+                <span> Outils </span>
+                <ul>
+                    <li>Arduino (C + matériel)</li>
+                    <li>Bandeau LED RGB</li>
+                </ul>
+                <span> Besoins techniques </span>
+                <ul>
+                    <li>RGB LED strip</li>
+                    <li>Arduino Uno</li>
+                    <li>10k Ohm Resistors</li>
+                    <li>Logic Level N-channel MOSFETs</li>
+                    <li>Breadboard</li>
+                    <li>Hookup wires</li>
+                    <li>12v Power Supply</li>
+                    <li>boutons</li>
+                </ul>
+
+
+
+                <h3>Hypothèse 3 - lunettes</h3>
+                <p>Le but ici est de réaliser une interface web où l'utilisateur pourra, grâce à son téléphone, jauger ses émotions de 0 à 10 en bougeant des curseur. Grâce à un serveur, ces données seront transférées à l'installation Arduino qui allumera et changera l'intensité lumineuse de chaque LED selon l'intensité de l'émotion ressentie. Les LED seront placées à l'intérieur de lunettes hermétiques à la lumière extérieure. Petit "+" → 2 émotions peuvent avoir la même couleur mais pas le même rythme (la colère sera représentée par un rouge clignotant tandis que l'amour par un rouge doux et lent).</p>
+                <span> Outils </span>
+                <ul>
+                    <li>Interface web (UI / UX) sur mobile</li>
+                    <li>Serveur (node.js)</li>
+                    <li>Arduino (C + matériel)</li>
+                    <li>LEDs de différentes couleurs</li>
+                    <li>Imprimante 3D</li>
+                </ul>
+                <span> Besoins techniques </span>
+                <ul>
+                    <li>Hébergement (OVH)</li>
+                    <li>HTML / Css / Js / Node.js</li>
+                    <li>RGB LED strip</li>
+                    <li>Arduino Uno</li>
+                    <li>10k Ohm Resistors</li>
+                    <li>Logic Level N-channel MOSFETs</li>
+                    <li>Breadboard</li>
+                    <li>Hookup wires</li>
+                    <li>12v Power Supply</li>
+                </ul>
+
+                <h3>Hypothèse 4 - coronavirus</h3>
+                <p>Le but ici est de réaliser une interface web où l'utilisateur pourra, grâce à son téléphone, jauger ses émotions de 0 à 10 en bougeant des curseur. Après avoir entré ces données, il aura a valider celles-ci et un autre écran apparaitra. Dans celui-ci les couleurs apparaitront comme des tâches de lumière : fortement pour les émotion ressenties vivement et moins intenses pour celles ressenties faiblement.</p>
+                <p>Petits "+"</p>
+                <ul>
+                    <li>L'utilisateur pourra entrer son nom dans le site pour que celui-ci s'affiche lors de résultats</li>
+                    <li>L'utilisateur pourra consulter son historique d'émotions</li>
+                    <li>L'utilisateur pourra consulter les émotions collectives (écran où toutes les émotions des gens ayant participé à l’expérience apparaitront)</li>
+                </ul>
+                <span> Outils </span>
+                <ul>
+                    <li>Interface web (UI / UX) sur mobile et ordinateur</li>
+                </ul>
+                <span> Besoins techniques </span>
+                <ul>
+                    <li>HTML / Css / Js </li>
+                    <li>Storage navigator</li>
+                    <li>Julien Noyer :)</li>
+                </ul>
+
+            </section>
+        </section>
+    </main>
